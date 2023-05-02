@@ -22,7 +22,7 @@ public class ArrayList_example{
         //Read operation
         System.out.println(arr.contains(22));
         
-        //search Index of elment
+        //search Index of element
         System.out.println(arr.indexOf(22));
     }
 
