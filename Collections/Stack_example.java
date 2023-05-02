@@ -1,15 +1,16 @@
 import java.util.*;
 
-public class Vector_example{
+public class Stack_example{
     public static void main(String args[]){
-        //Declaration of vector
-		Vector<Integer> arr=new Vector<Integer>();
+        //Declaration of Stack
+		Stack<Integer> arr=new Stack<Integer>();
 		
 		//Insert Operation
         arr.add(10);
         arr.add(20);
         arr.add(40);
-        System.out.println(arr);
+        arr.pop();
+        System.out.println(arr.peek());
         
         //Remove work with 0-index not with values
         arr.remove(1);
@@ -24,13 +25,18 @@ public class Vector_example{
         
         //search Index of element
         System.out.println(arr.indexOf(22));
-
-        //size of vector
+        
+        //size of stack
         System.out.println(arr.size());
         
-        //clear the vector
-        arr.clear();
+        
+        //clear the stack
+        arr.empty();
         System.out.println(arr);
+        
+        //size of stack
+        System.out.println(arr.size());
+        
     }
 
 } 
