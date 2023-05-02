@@ -24,6 +24,13 @@ public class ArrayList_example{
         
         //search Index of element
         System.out.println(arr.indexOf(22));
+
+        //size of array
+        System.out.println(arr.size());
+        
+        //clear the array
+        arr.clear();
+        System.out.println(arr);
     }
 
 } 
